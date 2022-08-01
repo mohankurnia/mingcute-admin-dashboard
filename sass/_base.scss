@@ -1,0 +1,28 @@
+// Variables
+$color-dark-1: #121212;
+$color-dark-2: #1B2130;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-secondary: #007AFF;
+$color-green: #2AC670;
+$color-red: #FF6252;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $color-dark-1;
+  color: $color-white;
+  display: flex;
+  position: relative;
+}
+
+.main {
+  width: 100%;
+  padding: 24px;
+  margin-left: 320px;
+}

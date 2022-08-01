@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MingCute | Admin Dashboard</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/img/mingcute_logo.png" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <!-- Sidebar Section -->
+  <div class="sidebar">
+    <div class="sidebar__logo">
+      <img src="/img/mingcute_logo.png" alt="MingCute Logo" 
+      class="sidebar__logo--mark">
+      <p class="sidebar__logo--type">MingCute</p>
+    </div>
+    <div class="sidebar__search">
+      <input type="search" name="input-search" id="input-search" placeholder="Search" class="sidebar__search__input">
+    </div>
+    <div class="sidebar__nav">
+      <div class="sidebar__nav__list">
+        <img src="/img/home_icon.svg" alt="Home Icon" class="sidebar__nav__list__image">
+        <p class="sidebar__nav__list__text">Dashboard</p>
+      </div>
+      <div class="sidebar__nav__list">
+        <img src="/img/clipboard_icon.svg" alt="Clipboard Icon Icon" class="sidebar__nav__list__image">
+        <p class="sidebar__nav__list__text">Orders</p>
+      </div>
+      <div class="sidebar__nav__list">
+        <img src="/img/schedule_icon.svg" alt="Schedule Icon Icon" class="sidebar__nav__list__image">
+        <p class="sidebar__nav__list__text">Schedules</p>
+      </div>
+      <div class="sidebar__nav__list">
+        <img src="/img/message_icon.svg" alt="Message Icon" class="sidebar__nav__list__image">
+        <p class="sidebar__nav__list__text">Messages</p>
+      </div>
+      <div class="sidebar__nav__list">
+        <img src="/img/inbox_icon.svg" alt="Inbox Icon" class="sidebar__nav__list__image">
+        <p class="sidebar__nav__list__text">Inbox</p>
+      </div>
+      <div class="sidebar__nav__list">
+        <img src="/img/chart-bar_icon.svg" alt="Chart Bar Icon" class="sidebar__nav__list__image">
+        <p class="sidebar__nav__list__text">Analytics</p>
+      </div>
+      <div class="sidebar__nav__list">
+        <img src="/img/news_icon.svg" alt="News Icon" class="sidebar__nav__list__image">
+        <p class="sidebar__nav__list__text">News</p>
+      </div>
+      <div class="sidebar__nav__list">
+        <img src="/img/settings_icon.svg" alt="Settings Icon" class="sidebar__nav__list__image">
+        <p class="sidebar__nav__list__text">Settings</p>
+      </div>
+    </div>
+    <div class="sidebar__profile">
+      <div class="sidebar__profile__content">
+        <img src="/img/avatar.png" alt="Avatar" class="sidebar__profile__content__avatar">
+        <div class="sidebar__profile__content__text">
+          <p class="sidebar__profile__content__text__name">Richard</p>
+          <p class="sidebar__profile__content__text__email">9394kay@gmail.com</p>
+        </div>
+      </div>
+      <img src="/img/entrance_icon.svg" alt="Sign Out Icon" class="sidebar__profile__image">
+    </div>
+  </div>
+
+  <!-- Main Section -->
+  <section class="main">
+
+    <!-- Data Section -->
+    <section class="data">
+      <div class="data__content data__content--user">
+        <img src="/img/user_icon.svg" alt="User Icon" class="data__content__image">
+        <div class="data__content__desc">
+          <p class="data__content__desc__title">Users</p>
+          <p class="data__content__desc__value">2,765</p>
+          <div class="data__content__desc__percent">
+            <img src="./img/chevron-up_icon.svg" alt="Green Chevron Up">
+            <p class="color_green">%10</p>
+          </div>
+        </div>
+      </div>
+      <div class="data__separator"></div>
+      <div class="data__content data__content--new">
+        <img src="/img/chart-pie_icon.svg" alt="Chart Pie Icon" class="data__content__image">
+        <div class="data__content__desc">
+          <p class="data__content__desc__title">New</p>
+          <p class="data__content__desc__value">253</p>
+          <div class="data__content__desc__percent">
+            <img src="./img/chevron-down_icon.svg" alt="Red Chevron Down">
+            <p class="color_red">%10</p>
+          </div>
+        </div>
+      </div>
+      <div class="data__separator"></div>
+      <div class="data__content data__content--average">
+        <img src="/img/tag_icon.svg" alt="Tag Icon" class="data__content__image">
+        <div class="data__content__desc">
+          <p class="data__content__desc__title">Average</p>
+          <p class="data__content__desc__value">896</p>
+          <div class="data__content__desc__percent">
+            <img src="./img/chevron-up_icon.svg" alt="Green Chevron Up">
+            <p class="color_green">%10</p>
+          </div>
+        </div>
+      </div>
+      <div class="data__separator"></div>
+      <div class="data__content data__content--total">
+        <img src="/img/wallet_icon.svg" alt="Wallet Icon" class="data__content__image">
+        <div class="data__content__desc">
+          <p class="data__content__desc__title">Total</p>
+          <p class="data__content__desc__value">253</p>
+          <div class="data__content__desc__percent">
+            <img src="./img/chevron-down_icon.svg" alt="Red Chevron Down">
+            <p class="color_red">%10</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chart Section -->
+    <section class="chart">
+      <!-- Bar Chart & Details Section -->
+      <section class="chart__row">
+        <!-- Performance Section -->
+        <section class="performance">
+          <div class="performance__header">
+            <p class="performance__header__title">Performance</p>
+            <div class="performance__header__tabs">
+              <p class="performance__header__tabs__tab">Day</p>
+              <p class="performance__header__tabs__tab performance__header__tab--active">Week</p>
+              <p class="performance__header__tabs__tab">Month</p>
+            </div>
+          </div>
+          <div class="performance__chart">
+            <canvas id="js-performance__chart"></canvas>
+          </div>
+        </section>
+        <!-- Details Section -->
+        <section class="details">
+
+        </section>
+      </section>
+    </section>
+
+  </section>
+
+  <!-- Chart JS -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Local JS -->
+  <script src="/js/script.js"></script>
+</body>
+</html>
