@@ -15,6 +15,10 @@ body {
   padding: 24px;
   margin-left: 320px; }
 
+.chart__row {
+  display: flex;
+  gap: 24px; }
+
 .sidebar {
   width: 320px;
   height: 100vh;
@@ -133,7 +137,8 @@ body {
   margin-top: 24px;
   background-color: #1B2130;
   border-radius: 8px;
-  padding: 16px 24px; }
+  padding: 16px 24px;
+  width: 100%; }
   .performance__header {
     display: flex;
     justify-content: space-between;
@@ -160,3 +165,29 @@ body {
           color: #ffffff; }
   .performance__chart #js-performance__chart {
     width: 100%; }
+
+.details {
+  margin-top: 24px;
+  background-color: #1B2130;
+  border-radius: 8px;
+  padding: 24px 24px 0 24px;
+  width: 100%; }
+  .details__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 16px; }
+  .details__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    width: 100%; }
+    .details__list__title {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.5); }
+    .details__list__value {
+      font-size: 14px;
+      font-weight: 600;
+      color: #ffffff; }

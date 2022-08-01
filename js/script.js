@@ -29,6 +29,7 @@ const performanceConfig = {
   type: 'bar',
   data: performanceData,
   options: {
+    responsive: true,
     plugins: {
       legend: {
         display: false
