@@ -1,0 +1,38 @@
+.total-count {
+  margin-top: 24px;
+  background-color: $color-dark-2;
+  border-radius: 8px;
+  padding: 16px 24px;
+  position: relative;
+
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: $color-white;
+  }
+
+  &__chart {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__desc {
+    text-align: center;
+    position: absolute;
+    top: 47%;
+    left: 43%;
+
+    &__text {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba($color-white, .3);
+    }
+
+    &__value {
+      font-size: 26px;
+      font-weight: 500;
+      color: $color-white;
+    }
+  }
+}
